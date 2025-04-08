@@ -1,0 +1,9 @@
+import objetos.*
+
+test "el celeste no es un color fuerte"{
+    assert.notThat(celeste.fuerte())
+}
+
+test "el rojo es un color fuerte"{
+    assert.that(rojo.fuerte())
+}
